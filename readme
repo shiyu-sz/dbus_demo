@@ -1,0 +1,4 @@
+安装环境
+apt-get install libdbus-1-dev
+
+https://clockworkbird9.wordpress.com/2020/02/16/install-libubox-and-ubus-on-ubuntu/
