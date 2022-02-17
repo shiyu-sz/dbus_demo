@@ -1,4 +1,9 @@
-安装环境
+1.安装环境
 apt-get install libdbus-1-dev
-
 https://clockworkbird9.wordpress.com/2020/02/16/install-libubox-and-ubus-on-ubuntu/
+确保存dbus-daemon已经运行
+
+2.将system.conf放到/etc/dbus-1/system.d下
+
+3.make 然后运行./dbus_recv监听消息，运行./dbus_send发送消息
+
