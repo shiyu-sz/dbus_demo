@@ -9,7 +9,7 @@ OBJS1 = $(patsubst %c, %o, $(SRCS1))
 SRCS2 = dbus_interface.c dbus_recv.c
 OBJS2 = $(patsubst %c, %o, $(SRCS2))
 
-INC = -I/usr/include/dbus-1.0
+INC = -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include/
 
 LIB = -L/usr/lib/x86_64-linux-gnu -ldbus-1
 
